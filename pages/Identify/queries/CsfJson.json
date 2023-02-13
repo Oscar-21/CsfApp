@@ -18,6 +18,7 @@
     },
     "pageId": "Identify",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "path": "/CSRC/media/Projects/olir/documents/FocalDoc-Framework_V1.1.json",
       "encodeParamsToggle": true,
