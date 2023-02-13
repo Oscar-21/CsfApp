@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "CsfUtils",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Home_CsfUtils",
+  "deleted": false,
+  "gitSyncId": "63ea1c1e291ab5434833d4a2_63ea757f5bf3193e553323ba"
+}

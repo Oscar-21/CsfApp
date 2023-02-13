@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "JSObject1",
+    "name": "CsfUtilsz",
     "pageId": "Identify",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -8,17 +8,13 @@
     "archivedActions": [],
     "variables": [
       {
-        "name": "myVar1",
-        "value": "[]"
-      },
-      {
-        "name": "myVar2",
-        "value": "{}"
+        "name": "keys",
+        "value": "{\n  category: \"category\",\n  subcategory: \"subcategory\"\n}"
       }
     ],
     "userPermissions": []
   },
-  "id": "Identify_JSObject1",
+  "id": "Identify_CsfUtilsz",
   "deleted": false,
-  "gitSyncId": "62610a1f00cba01cd02eeea8_6261630200cba01cd02f0c3e"
+  "gitSyncId": "63ea1c1e291ab5434833d4a2_63ea7416b891ad2a97f22378"
 }
