@@ -1974,10 +1974,14 @@
                           }
                         },
                         "Text3": {
-                          "text": "{{IdentifyList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Description';\n              })();\n            })}}"
+                          "text": "{{IdentifyList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Description';\n              })();\n            })}}",
+                          "fontSize": "{{IdentifyList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
+                          "fontStyle": ""
                         },
                         "Text4": {
-                          "text": "{{IdentifyList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Category';\n              })();\n            })}}"
+                          "text": "{{IdentifyList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Category';\n              })();\n            })}}",
+                          "fontSize": "{{IdentifyList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
+                          "fontStyle": ""
                         },
                         "Text5": {
                           "text": "{{IdentifyList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.title;\n              })();\n            })}}"
@@ -2027,6 +2031,12 @@
                         },
                         {
                           "key": "template.Text5.text"
+                        },
+                        {
+                          "key": "template.Text4.fontSize"
+                        },
+                        {
+                          "key": "template.Text3.fontSize"
                         }
                       ],
                       "gridType": "vertical",
@@ -2242,7 +2252,7 @@
                                         "dynamicBindingPathList": true
                                       },
                                       "isVisible": true,
-                                      "fontStyle": "BOLD",
+                                      "fontStyle": "",
                                       "textColor": "#231F20",
                                       "version": 1,
                                       "parentId": "o9m6o2x3cr",
@@ -2250,7 +2260,7 @@
                                       "isLoading": false,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "fontSize": "1rem",
+                                      "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2334,7 +2344,7 @@
                                         "dynamicBindingPathList": true
                                       },
                                       "isVisible": true,
-                                      "fontStyle": "BOLD",
+                                      "fontStyle": "",
                                       "textColor": "#231F20",
                                       "version": 1,
                                       "parentId": "o9m6o2x3cr",
@@ -2342,7 +2352,7 @@
                                       "isLoading": false,
                                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                                       "maxDynamicHeight": 9000,
-                                      "fontSize": "1rem",
+                                      "fontSize": "0.875rem",
                                       "minDynamicHeight": 4
                                     },
                                     {
@@ -2689,7 +2699,7 @@
                       "overflow": "NONE",
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
+                      "leftColumn": 13,
                       "dynamicBindingPathList": [
                         {
                           "key": "text"
@@ -2703,8 +2713,8 @@
                       "text": "{{appsmith.store.category.title}} Subcategories",
                       "key": "3s3v1io07r",
                       "isDeprecated": false,
-                      "rightColumn": 41,
-                      "textAlign": "LEFT",
+                      "rightColumn": 53,
+                      "textAlign": "CENTER",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "4qmruqrhez",
                       "isVisible": true,
