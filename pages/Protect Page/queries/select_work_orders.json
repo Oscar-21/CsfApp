@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Submit new order",
+    "pageId": "Protect Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select * from work_orders",
+      "body": "select * from work_orders;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -37,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Submit new order_select_work_orders",
+  "id": "Protect Page_select_work_orders",
   "deleted": false,
-  "gitSyncId": "626ac90acca31f35e65b4313_626ac90acca31f35e65b4329"
+  "gitSyncId": "63ea1c1e291ab5434833d4a2_63ea3f64291ab5434833d821"
 }

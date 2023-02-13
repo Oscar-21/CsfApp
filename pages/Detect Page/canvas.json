@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Identify Page",
-    "slug": "identify-page",
+    "name": "Detect Page",
+    "slug": "detect-page",
     "layouts": [
       {
         "viewMode": false,
@@ -27,7 +27,7 @@
           "children": [
             {
               "boxShadow": "none",
-              "widgetName": "Container2",
+              "widgetName": "ProtectNavBarHeader",
               "borderColor": "transparent",
               "isCanvas": true,
               "dynamicPropertyPathList": [
@@ -70,6 +70,117 @@
                     }
                   ],
                   "children": [
+                    {
+                      "isCompact": false,
+                      "boxShadow": "none",
+                      "widgetName": "BurgerBar",
+                      "configureMenuItems": {
+                        "label": "Configure Menu Items",
+                        "id": "config",
+                        "config": {
+                          "id": "config",
+                          "label": "Menu Item",
+                          "isVisible": true,
+                          "isDisabled": false
+                        }
+                      },
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "menuItems.menuItem1.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItem3.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItemspekwh04j3.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItem2.onClick"
+                        }
+                      ],
+                      "displayName": "Menu Button",
+                      "iconSVG": "/static/media/icon.0341d17d.svg",
+                      "topRow": 0,
+                      "bottomRow": 6,
+                      "parentRowSpace": 10,
+                      "type": "MENU_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.01953125,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "menuItems.menuItem1.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItem2.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItem3.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItemspekwh04j3.onClick"
+                        }
+                      ],
+                      "leftColumn": 58,
+                      "dynamicBindingPathList": [],
+                      "isDisabled": false,
+                      "sourceData": "[]",
+                      "key": "kbnk4w7evq",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 63,
+                      "iconName": "menu",
+                      "menuVariant": "TERTIARY",
+                      "widgetId": "s3klq0seqs",
+                      "menuItems": {
+                        "menuItem1": {
+                          "label": "Home",
+                          "id": "menuItem1",
+                          "widgetId": "",
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "index": 0,
+                          "onClick": "{{navigateTo('Home Page', {})}}"
+                        },
+                        "menuItem2": {
+                          "label": "Identify",
+                          "id": "menuItem2",
+                          "widgetId": "",
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "index": 1,
+                          "onClick": "{{navigateTo('Detect Page', {})}}"
+                        },
+                        "menuItem3": {
+                          "label": "Protect",
+                          "id": "menuItem3",
+                          "widgetId": "",
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "index": 2,
+                          "onClick": "{{navigateTo('Protect Page', {})}}"
+                        },
+                        "menuItemspekwh04j3": {
+                          "id": "menuItemspekwh04j3",
+                          "index": 3,
+                          "label": "Detect",
+                          "widgetId": "m6t7bzqwnl",
+                          "isDisabled": false,
+                          "isVisible": true,
+                          "onClick": "{{navigateTo('Detect Page', {})}}"
+                        }
+                      },
+                      "isVisible": true,
+                      "label": "",
+                      "version": 1,
+                      "parentId": "sr9w62ac7e",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0.900rem",
+                      "menuColor": "#2E3D49",
+                      "menuItemsSource": "STATIC",
+                      "iconAlign": "right",
+                      "placement": "START"
+                    },
                     {
                       "boxShadow": "none",
                       "widgetName": "Image2",
@@ -130,7 +241,7 @@
                       "leftColumn": 8,
                       "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
-                      "text": "Identify",
+                      "text": "Detect",
                       "key": "czyq0gtp0e",
                       "labelTextSize": "0.875rem",
                       "rightColumn": 45,
@@ -148,117 +259,6 @@
                       "maxDynamicHeight": 9000,
                       "fontSize": "1.7rem",
                       "minDynamicHeight": 4
-                    },
-                    {
-                      "isCompact": false,
-                      "boxShadow": "none",
-                      "widgetName": "BurgerBar",
-                      "configureMenuItems": {
-                        "label": "Configure Menu Items",
-                        "id": "config",
-                        "config": {
-                          "id": "config",
-                          "label": "Menu Item",
-                          "isVisible": true,
-                          "isDisabled": false
-                        }
-                      },
-                      "dynamicPropertyPathList": [
-                        {
-                          "key": "menuItems.menuItem1.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItem3.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItemspekwh04j3.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItem2.onClick"
-                        }
-                      ],
-                      "displayName": "Menu Button",
-                      "iconSVG": "/static/media/icon.0341d17d.svg",
-                      "topRow": 0,
-                      "bottomRow": 5,
-                      "parentRowSpace": 10,
-                      "type": "MENU_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.01953125,
-                      "dynamicTriggerPathList": [
-                        {
-                          "key": "menuItems.menuItem1.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItem2.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItem3.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItemspekwh04j3.onClick"
-                        }
-                      ],
-                      "leftColumn": 59,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "sourceData": "[]",
-                      "key": "kbnk4w7evq",
-                      "labelTextSize": "0.875rem",
-                      "rightColumn": 64,
-                      "iconName": "menu",
-                      "menuVariant": "TERTIARY",
-                      "widgetId": "b2la0p35kc",
-                      "menuItems": {
-                        "menuItem1": {
-                          "label": "Home",
-                          "id": "menuItem1",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 0,
-                          "onClick": "{{navigateTo('Home Page', {})}}"
-                        },
-                        "menuItem2": {
-                          "label": "Identify",
-                          "id": "menuItem2",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 1,
-                          "onClick": "{{navigateTo('Detect Page', {})}}"
-                        },
-                        "menuItem3": {
-                          "label": "Protect",
-                          "id": "menuItem3",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 2,
-                          "onClick": "{{navigateTo('Protect Page', {})}}"
-                        },
-                        "menuItemspekwh04j3": {
-                          "id": "menuItemspekwh04j3",
-                          "index": 3,
-                          "label": "Detect",
-                          "widgetId": "m6t7bzqwnl",
-                          "isDisabled": false,
-                          "isVisible": true,
-                          "onClick": "{{navigateTo('Detect Page', {})}}"
-                        }
-                      },
-                      "isVisible": true,
-                      "label": "",
-                      "version": 1,
-                      "parentId": "sr9w62ac7e",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "0.900rem",
-                      "menuColor": "#2E3D49",
-                      "menuItemsSource": "STATIC",
-                      "iconAlign": "right",
-                      "placement": "START"
                     }
                   ],
                   "key": "fmvzk8n19t",
@@ -295,7 +295,7 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "List1",
+              "widgetName": "ProtectPageCategoriesList",
               "borderColor": "transparent",
               "isCanvas": true,
               "dynamicPropertyPathList": [
@@ -305,8 +305,8 @@
               ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3.svg",
-              "topRow": 15,
-              "bottomRow": 94,
+              "topRow": 10,
+              "bottomRow": 89,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -425,140 +425,6 @@
                             "v3wmratz6t"
                           ],
                           "key": "ffadum178l"
-                        },
-                        "Text2CopyCopy": {
-                          "widgetName": "Text2CopyCopy",
-                          "displayName": "Text",
-                          "iconSVG": "/static/media/icon.97c59b52.svg",
-                          "topRow": 1,
-                          "bottomRow": 5,
-                          "type": "TEXT_WIDGET",
-                          "hideCard": false,
-                          "animateLoading": true,
-                          "dynamicTriggerPathList": [],
-                          "overflow": "NONE",
-                          "dynamicBindingPathList": [
-                            {
-                              "key": "text"
-                            }
-                          ],
-                          "leftColumn": 17,
-                          "truncateButtonColor": "#FFC13D",
-                          "text": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.type;\n              })();\n            })}}",
-                          "key": "czyq0gtp0e",
-                          "rightColumn": 29,
-                          "textAlign": "LEFT",
-                          "widgetId": "piqofw7yxi",
-                          "logBlackList": {
-                            "isVisible": true,
-                            "text": true,
-                            "fontSize": true,
-                            "fontStyle": true,
-                            "textAlign": true,
-                            "textColor": true,
-                            "truncateButtonColor": true,
-                            "widgetName": true,
-                            "shouldScroll": true,
-                            "shouldTruncate": true,
-                            "version": true,
-                            "animateLoading": true,
-                            "type": true,
-                            "hideCard": true,
-                            "displayName": true,
-                            "key": true,
-                            "iconSVG": true,
-                            "isCanvas": true,
-                            "textStyle": true,
-                            "dynamicBindingPathList": true,
-                            "dynamicTriggerPathList": true,
-                            "minHeight": true,
-                            "widgetId": true,
-                            "renderMode": true,
-                            "isLoading": true,
-                            "parentColumnSpace": true,
-                            "parentRowSpace": true,
-                            "leftColumn": true,
-                            "rightColumn": true,
-                            "topRow": true,
-                            "bottomRow": true,
-                            "parentId": true
-                          },
-                          "isVisible": true,
-                          "fontStyle": "",
-                          "textColor": "#231F20",
-                          "version": 1,
-                          "parentId": "o9m6o2x3cr",
-                          "renderMode": "CANVAS",
-                          "isLoading": false,
-                          "fontSize": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
-                          "textStyle": "HEADING"
-                        },
-                        "Text2CopyCopyCopy": {
-                          "widgetName": "Text2CopyCopyCopy",
-                          "displayName": "Text",
-                          "iconSVG": "/static/media/icon.97c59b52.svg",
-                          "topRow": 8,
-                          "bottomRow": 12,
-                          "type": "TEXT_WIDGET",
-                          "hideCard": false,
-                          "animateLoading": true,
-                          "dynamicTriggerPathList": [],
-                          "overflow": "NONE",
-                          "dynamicBindingPathList": [
-                            {
-                              "key": "text"
-                            }
-                          ],
-                          "leftColumn": 2,
-                          "truncateButtonColor": "#FFC13D",
-                          "text": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Description';\n              })();\n            })}}",
-                          "key": "czyq0gtp0e",
-                          "rightColumn": 14,
-                          "textAlign": "LEFT",
-                          "widgetId": "ttyhg2yzd9",
-                          "logBlackList": {
-                            "isVisible": true,
-                            "text": true,
-                            "fontSize": true,
-                            "fontStyle": true,
-                            "textAlign": true,
-                            "textColor": true,
-                            "truncateButtonColor": true,
-                            "widgetName": true,
-                            "shouldScroll": true,
-                            "shouldTruncate": true,
-                            "version": true,
-                            "animateLoading": true,
-                            "type": true,
-                            "hideCard": true,
-                            "displayName": true,
-                            "key": true,
-                            "iconSVG": true,
-                            "isCanvas": true,
-                            "textStyle": true,
-                            "dynamicBindingPathList": true,
-                            "dynamicTriggerPathList": true,
-                            "minHeight": true,
-                            "widgetId": true,
-                            "renderMode": true,
-                            "isLoading": true,
-                            "parentColumnSpace": true,
-                            "parentRowSpace": true,
-                            "leftColumn": true,
-                            "rightColumn": true,
-                            "topRow": true,
-                            "bottomRow": true,
-                            "parentId": true
-                          },
-                          "isVisible": true,
-                          "fontStyle": "",
-                          "textColor": "#231F20",
-                          "version": 1,
-                          "parentId": "o9m6o2x3cr",
-                          "renderMode": "CANVAS",
-                          "isLoading": false,
-                          "fontSize": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
-                          "textStyle": "HEADING"
                         },
                         "Text3CopyCopyCopyCopyCopy": {
                           "widgetName": "Text3CopyCopyCopyCopyCopy",
@@ -1364,66 +1230,6 @@
                           "fontSize": "HEADING2",
                           "textStyle": "HEADING"
                         },
-                        "Text1": {
-                          "isVisible": true,
-                          "text": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.title;\n              })();\n            })}}",
-                          "fontSize": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '1rem';\n              })();\n            })}}",
-                          "fontStyle": "BOLD",
-                          "textAlign": "LEFT",
-                          "textColor": "#231F20",
-                          "truncateButtonColor": "#FFC13D",
-                          "widgetName": "Text1",
-                          "shouldTruncate": false,
-                          "overflow": "NONE",
-                          "version": 1,
-                          "animateLoading": true,
-                          "type": "TEXT_WIDGET",
-                          "hideCard": false,
-                          "displayName": "Text",
-                          "key": "sf3h3c9rxg",
-                          "iconSVG": "/static/media/icon.97c59b52.svg",
-                          "widgetId": "rkgnt9rhji",
-                          "renderMode": "CANVAS",
-                          "isLoading": false,
-                          "parentColumnSpace": 5.6962890625,
-                          "parentRowSpace": 10,
-                          "leftColumn": 24,
-                          "rightColumn": 40,
-                          "topRow": 1,
-                          "bottomRow": 5,
-                          "parentId": "o9m6o2x3cr",
-                          "logBlackList": {
-                            "isVisible": true,
-                            "text": true,
-                            "fontSize": true,
-                            "fontStyle": true,
-                            "textAlign": true,
-                            "textColor": true,
-                            "truncateButtonColor": true,
-                            "widgetName": true,
-                            "shouldTruncate": true,
-                            "overflow": true,
-                            "version": true,
-                            "animateLoading": true,
-                            "type": true,
-                            "hideCard": true,
-                            "displayName": true,
-                            "key": true,
-                            "iconSVG": true,
-                            "isCanvas": true,
-                            "minHeight": true,
-                            "widgetId": true,
-                            "renderMode": true,
-                            "isLoading": true,
-                            "parentColumnSpace": true,
-                            "parentRowSpace": true,
-                            "leftColumn": true,
-                            "rightColumn": true,
-                            "topRow": true,
-                            "bottomRow": true,
-                            "parentId": true
-                          }
-                        },
                         "Text2Copy": {
                           "isVisible": true,
                           "text": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.request_date;\n              })();\n            })}}",
@@ -1484,7 +1290,201 @@
                             "parentId": true
                           }
                         },
-                        "DescriptionContent": {
+                        "CategoryText": {
+                          "widgetName": "CategoryText",
+                          "displayName": "Text",
+                          "iconSVG": "/static/media/icon.97c59b52.svg",
+                          "topRow": 1,
+                          "bottomRow": 5,
+                          "type": "TEXT_WIDGET",
+                          "hideCard": false,
+                          "animateLoading": true,
+                          "dynamicTriggerPathList": [],
+                          "overflow": "NONE",
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "text"
+                            }
+                          ],
+                          "leftColumn": 17,
+                          "truncateButtonColor": "#FFC13D",
+                          "text": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.type;\n              })();\n            })}}",
+                          "key": "czyq0gtp0e",
+                          "rightColumn": 29,
+                          "textAlign": "LEFT",
+                          "widgetId": "piqofw7yxi",
+                          "logBlackList": {
+                            "isVisible": true,
+                            "text": true,
+                            "fontSize": true,
+                            "fontStyle": true,
+                            "textAlign": true,
+                            "textColor": true,
+                            "truncateButtonColor": true,
+                            "widgetName": true,
+                            "shouldScroll": true,
+                            "shouldTruncate": true,
+                            "version": true,
+                            "animateLoading": true,
+                            "type": true,
+                            "hideCard": true,
+                            "displayName": true,
+                            "key": true,
+                            "iconSVG": true,
+                            "isCanvas": true,
+                            "textStyle": true,
+                            "dynamicBindingPathList": true,
+                            "dynamicTriggerPathList": true,
+                            "minHeight": true,
+                            "widgetId": true,
+                            "renderMode": true,
+                            "isLoading": true,
+                            "parentColumnSpace": true,
+                            "parentRowSpace": true,
+                            "leftColumn": true,
+                            "rightColumn": true,
+                            "topRow": true,
+                            "bottomRow": true,
+                            "parentId": true
+                          },
+                          "isVisible": true,
+                          "fontStyle": "",
+                          "textColor": "#231F20",
+                          "version": 1,
+                          "parentId": "o9m6o2x3cr",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "fontSize": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
+                          "textStyle": "HEADING"
+                        },
+                        "DescriptionText": {
+                          "widgetName": "DescriptionText",
+                          "displayName": "Text",
+                          "iconSVG": "/static/media/icon.97c59b52.svg",
+                          "topRow": 8,
+                          "bottomRow": 12,
+                          "type": "TEXT_WIDGET",
+                          "hideCard": false,
+                          "animateLoading": true,
+                          "dynamicTriggerPathList": [],
+                          "overflow": "NONE",
+                          "dynamicBindingPathList": [
+                            {
+                              "key": "text"
+                            }
+                          ],
+                          "leftColumn": 2,
+                          "truncateButtonColor": "#FFC13D",
+                          "text": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Description';\n              })();\n            })}}",
+                          "key": "czyq0gtp0e",
+                          "rightColumn": 14,
+                          "textAlign": "LEFT",
+                          "widgetId": "ttyhg2yzd9",
+                          "logBlackList": {
+                            "isVisible": true,
+                            "text": true,
+                            "fontSize": true,
+                            "fontStyle": true,
+                            "textAlign": true,
+                            "textColor": true,
+                            "truncateButtonColor": true,
+                            "widgetName": true,
+                            "shouldScroll": true,
+                            "shouldTruncate": true,
+                            "version": true,
+                            "animateLoading": true,
+                            "type": true,
+                            "hideCard": true,
+                            "displayName": true,
+                            "key": true,
+                            "iconSVG": true,
+                            "isCanvas": true,
+                            "textStyle": true,
+                            "dynamicBindingPathList": true,
+                            "dynamicTriggerPathList": true,
+                            "minHeight": true,
+                            "widgetId": true,
+                            "renderMode": true,
+                            "isLoading": true,
+                            "parentColumnSpace": true,
+                            "parentRowSpace": true,
+                            "leftColumn": true,
+                            "rightColumn": true,
+                            "topRow": true,
+                            "bottomRow": true,
+                            "parentId": true
+                          },
+                          "isVisible": true,
+                          "fontStyle": "",
+                          "textColor": "#231F20",
+                          "version": 1,
+                          "parentId": "o9m6o2x3cr",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "fontSize": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
+                          "textStyle": "HEADING"
+                        },
+                        "CategoryTitleText": {
+                          "isVisible": true,
+                          "text": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.title;\n              })();\n            })}}",
+                          "fontSize": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '1rem';\n              })();\n            })}}",
+                          "fontStyle": "BOLD",
+                          "textAlign": "LEFT",
+                          "textColor": "#231F20",
+                          "truncateButtonColor": "#FFC13D",
+                          "widgetName": "CategoryTitleText",
+                          "shouldTruncate": false,
+                          "overflow": "NONE",
+                          "version": 1,
+                          "animateLoading": true,
+                          "type": "TEXT_WIDGET",
+                          "hideCard": false,
+                          "displayName": "Text",
+                          "key": "sf3h3c9rxg",
+                          "iconSVG": "/static/media/icon.97c59b52.svg",
+                          "widgetId": "rkgnt9rhji",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "parentColumnSpace": 5.6962890625,
+                          "parentRowSpace": 10,
+                          "leftColumn": 24,
+                          "rightColumn": 40,
+                          "topRow": 1,
+                          "bottomRow": 5,
+                          "parentId": "o9m6o2x3cr",
+                          "logBlackList": {
+                            "isVisible": true,
+                            "text": true,
+                            "fontSize": true,
+                            "fontStyle": true,
+                            "textAlign": true,
+                            "textColor": true,
+                            "truncateButtonColor": true,
+                            "widgetName": true,
+                            "shouldTruncate": true,
+                            "overflow": true,
+                            "version": true,
+                            "animateLoading": true,
+                            "type": true,
+                            "hideCard": true,
+                            "displayName": true,
+                            "key": true,
+                            "iconSVG": true,
+                            "isCanvas": true,
+                            "minHeight": true,
+                            "widgetId": true,
+                            "renderMode": true,
+                            "isLoading": true,
+                            "parentColumnSpace": true,
+                            "parentRowSpace": true,
+                            "leftColumn": true,
+                            "rightColumn": true,
+                            "topRow": true,
+                            "bottomRow": true,
+                            "parentId": true
+                          }
+                        },
+                        "DescriptionContentText": {
                           "isVisible": true,
                           "text": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.description;\n              })();\n            })}}",
                           "fontSize": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '0.875rem';\n              })();\n            })}}",
@@ -1492,7 +1492,7 @@
                           "textAlign": "LEFT",
                           "textColor": "#231F20",
                           "truncateButtonColor": "#FFC13D",
-                          "widgetName": "DescriptionContent",
+                          "widgetName": "DescriptionContentText",
                           "shouldTruncate": false,
                           "overflow": "{{List.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'SCROLL';\n              })();\n            })}}",
                           "version": 1,
@@ -1547,7 +1547,7 @@
                       },
                       "boxShadow": "none",
                       "widgetName": "List",
-                      "listData": "{{CsfJson.data.focalDocElements[0].childElements}}",
+                      "listData": "{{CsfJson.data.focalDocElements[2].childElements}}",
                       "isCanvas": true,
                       "displayName": "List",
                       "iconSVG": "/static/media/icon.9925ee17.svg",
@@ -1568,19 +1568,19 @@
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
-                          "key": "template.Text2CopyCopy.text"
+                          "key": "template.CategoryText.text"
                         },
                         {
-                          "key": "template.Text2CopyCopyCopy.text"
+                          "key": "template.DescriptionText.text"
                         },
                         {
                           "key": "listData"
                         },
                         {
-                          "key": "template.Text1.text"
+                          "key": "template.CategoryTitleText.text"
                         },
                         {
-                          "key": "template.DescriptionContent.text"
+                          "key": "template.DescriptionContentText.text"
                         },
                         {
                           "key": "template.Text2Copy.text"
@@ -1589,25 +1589,25 @@
                           "key": "accentColor"
                         },
                         {
-                          "key": "template.Text1.fontSize"
+                          "key": "template.CategoryTitleText.fontSize"
                         },
                         {
-                          "key": "template.DescriptionContent.fontSize"
+                          "key": "template.DescriptionContentText.fontSize"
                         },
                         {
                           "key": "template.Text2Copy.fontSize"
                         },
                         {
-                          "key": "template.Text2CopyCopy.fontSize"
+                          "key": "template.CategoryText.fontSize"
                         },
                         {
-                          "key": "template.Text2CopyCopyCopy.fontSize"
+                          "key": "template.DescriptionText.fontSize"
                         },
                         {
-                          "key": "template.DescriptionContent.overflow"
+                          "key": "template.DescriptionContentText.overflow"
                         },
                         {
-                          "key": "template.DescriptionContent.fontStyle"
+                          "key": "template.DescriptionContentText.fontStyle"
                         }
                       ],
                       "gridType": "vertical",
@@ -1660,7 +1660,7 @@
                                   "widgetName": "Canvas4CopyCopy",
                                   "displayName": "Canvas",
                                   "topRow": 0,
-                                  "bottomRow": 380,
+                                  "bottomRow": 240,
                                   "parentRowSpace": 1,
                                   "type": "CANVAS_WIDGET",
                                   "canExtend": false,
@@ -1744,7 +1744,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Text2CopyCopyCopy",
+                                      "widgetName": "DescriptionText",
                                       "dynamicPropertyPathList": [],
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -1815,7 +1815,7 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Text2CopyCopy",
+                                      "widgetName": "CategoryText",
                                       "dynamicPropertyPathList": [],
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -1890,11 +1890,11 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "Text1",
+                                      "widgetName": "CategoryTitleText",
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b52.svg",
                                       "topRow": 1,
-                                      "bottomRow": 5,
+                                      "bottomRow": 6,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -1963,11 +1963,11 @@
                                     },
                                     {
                                       "boxShadow": "none",
-                                      "widgetName": "DescriptionContent",
+                                      "widgetName": "DescriptionContentText",
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b52.svg",
-                                      "topRow": 5,
-                                      "bottomRow": 14,
+                                      "topRow": 6,
+                                      "bottomRow": 15,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -2177,7 +2177,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Identify Page_CsfJson",
+              "id": "Detect Page_CsfJson",
               "name": "CsfJson",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -2188,7 +2188,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Identify Page",
+        "id": "Detect Page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -2199,5 +2199,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "626ac90acca31f35e65b4313_626ac90acca31f35e65b431c"
+  "gitSyncId": "63ea1c1e291ab5434833d4a2_63ea41695bf3193e55331fcb"
 }

@@ -5,19 +5,15 @@
       "isDefault": true
     },
     {
-      "id": "Submit new order",
-      "isDefault": false
-    },
-    {
       "id": "Identify Page",
       "isDefault": false
     },
     {
-      "id": "Admin",
+      "id": "Protect Page",
       "isDefault": false
     },
     {
-      "id": "Success page",
+      "id": "Detect Page",
       "isDefault": false
     }
   ],
