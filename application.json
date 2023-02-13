@@ -1,19 +1,19 @@
 {
   "pages": [
     {
-      "id": "Home Page",
+      "id": "Home",
       "isDefault": true
     },
     {
-      "id": "Identify Page",
+      "id": "Identify",
       "isDefault": false
     },
     {
-      "id": "Protect Page",
+      "id": "Protect",
       "isDefault": false
     },
     {
-      "id": "Detect Page",
+      "id": "Detect",
       "isDefault": false
     }
   ],
