@@ -1549,6 +1549,11 @@
                       "widgetName": "List",
                       "listData": "{{CsfJson.data.focalDocElements[1].childElements}}",
                       "isCanvas": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onListItemClick"
+                        }
+                      ],
                       "displayName": "List",
                       "iconSVG": "/static/media/icon.9925ee17.svg",
                       "topRow": 8,
@@ -1563,6 +1568,9 @@
                       "dynamicTriggerPathList": [
                         {
                           "key": "onPageChange"
+                        },
+                        {
+                          "key": "onListItemClick"
                         }
                       ],
                       "leftColumn": 0,
@@ -2088,6 +2096,7 @@
                       "labelTextSize": "0.875rem",
                       "backgroundColor": "transparent",
                       "rightColumn": 64,
+                      "onListItemClick": "{{storeValue(CsfUtilsz.keys.keys.category, List.selectedItem) && showModal('ProtectSubcatModal')}}",
                       "itemBackgroundColor": "#FFFFFF",
                       "widgetId": "5nd19873od",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
